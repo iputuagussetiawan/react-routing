@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <h1>Home</h1>
       <p>Hallow From Home</p>
-      <Link to="/products">Go To Product</Link>
+      <Link to="products">Go To Product</Link>
       <button onClick={navigateHandler}>Navigate</button>
     </>
   )
